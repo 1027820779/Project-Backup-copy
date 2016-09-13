@@ -1,0 +1,5 @@
+name: Json Export
+type: module
+description: export json data for mobile app
+package: Custom
+core: 8.x

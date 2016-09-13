@@ -1,0 +1,18 @@
+json_export_index:
+  path: /json_export/index/{ID}
+  defaults:
+    _controller: Drupal\json_export\Controller\JsonExportController::index
+  requirements:
+    _permission: 'access content'
+json_export_index.word_list:
+  path: /json_export/word_list/{AID}
+  defaults:
+    _controller: Drupal\json_export\Controller\JsonExportController::word_list
+  requirements:
+    _permission: 'access content'
+json_export_index.article_json:
+  path: /json_export/article_json/{AID}
+  defaults:
+    _controller: Drupal\json_export\Controller\JsonExportController::article_json
+  requirements:
+    _permission: 'access content'
